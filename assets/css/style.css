@@ -8,6 +8,20 @@ body{
   color: white;
 }
 
+h2{
+  font-size: 22px;
+}
+
+h3{
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+span{
+  font-size: 13px;
+  font-weight: 800;
+}
+
 li{
   list-style: none;
 }
@@ -46,10 +60,15 @@ img{
   flex-wrap: wrap;
 }
 
+.column{
+  flex-direction: column;
+}
+
 .relative{
   position: relative;
   height: 100%;
 }
+
 
 
 
@@ -89,18 +108,38 @@ img{
 #top .content{
   width: calc(100vw - 250px);
   height: calc(100vh - 100px);
-  padding-top: 100px;
+  padding: 100px 10px 10px 10px;
   background-color: #141922;
   overflow: scroll;
 }
 
 #top .content li{
-  padding: 10px 10px;
+  padding: 25px 15px;
+  font-size: 13px;
+  font-weight: 800;
+  color: #7a7d81;
+}
+
+#top .content h2,
+#top .content h3{
+  margin-bottom: 10px;
+}
+
+#top .content .title{
+  padding: 20px 10px;
+}
+
+#top .content span{
+  color: #7a7d81;
 }
 
 #top .col{
   width: calc(100% / 6);
-  text-align: center;
+  padding: 10px;
+}
+
+#top .col .card{
+  text-align: justify;
 }
 
 #top .popular .card img{
