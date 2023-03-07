@@ -9,3 +9,49 @@
   border: 1px solid black;
   height: 200px;
 }
+
+.d-flex{
+  display: flex;
+}
+
+
+
+/* TOP */
+#top{
+  position: relative;
+}
+
+/* upgrade */
+#top .upgrade{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80vw;
+}
+
+/* left */
+#top .left{
+  width: 20vw;
+  height: 90vh;
+}
+
+/* content */
+#top .content{
+  width: 80vw;
+  height: 90vh;
+  overflow: scroll;
+}
+
+
+
+
+/* BOTTOM */
+#bottom{
+  width: 100vw;
+  height: 10vh;
+}
+
+
+
+
+/* RESPONSIVE */
