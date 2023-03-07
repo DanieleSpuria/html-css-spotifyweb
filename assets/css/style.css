@@ -70,6 +70,20 @@ img{
   height: 100%;
 }
 
+.line{
+  position: relative;
+  height: 5px;
+  background-color: #5a5a5a;
+  border-radius: 50px;
+}
+
+.line-white{
+  position: absolute;
+  left: 0;
+  height: 5px;
+  background-color: #c1c1c1;
+}
+
 
 
 
@@ -191,19 +205,11 @@ img{
 }
 
 #bottom .center .line{
-  position: relative;
-  height: 5px;
   width: 500px;
-  background-color: #5a5a5a;
-  border-radius: 50px;
 }
 
 #bottom .center .line-white{
-  position: absolute;
-  left: 0;
-  height: 5px;
   width: 100px;
-  background-color: #c1c1c1;
 }
 
 #bottom .time{
@@ -214,6 +220,14 @@ img{
 
 #bottom .right{
   width: 25vw;
+}
+
+#bottom .right .line{
+  width: 120px;
+}
+
+#bottom .right .line-white{
+  width: 20px;
 }
 
 
