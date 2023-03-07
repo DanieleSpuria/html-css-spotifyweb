@@ -56,3 +56,26 @@
 
 
 /* RESPONSIVE */
+@media screen and (min-width:992px){
+  
+}
+
+@media screen and (min-width:768px){
+  
+}
+
+@media screen and (min-width:576px){
+  
+}
+
+@media screen and (max-width:575px){
+  #top .upgrade{
+    width: calc(100vw - 60px);
+  }
+  #top .left{
+    width: 60px;
+  }
+  #top .content{
+    width: calc(100vw - 60px);
+  }
+}
