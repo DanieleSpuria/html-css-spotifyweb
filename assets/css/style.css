@@ -20,6 +20,7 @@ h3{
 span{
   font-size: 13px;
   font-weight: 800;
+  color: #7a7d81;
 }
 
 li{
@@ -98,10 +99,33 @@ img{
   display: none;
 }
 
+#top .left .add-btn span,
+#top .left .add-btn .btn{
+  display: inline-block;
+}
+
+#top .left .add-btn .btn{
+  background-color: #a3a3a3;
+  cursor: pointer;
+}
+
+#top .left .add-btn .btn i{
+  font-size: 18px;
+  padding: 8px;
+  filter: invert(1);
+}
+
 #top .left .bottom{
   position: absolute;
   bottom:0;
+  width: 100%;
 }
+
+#top .left .install{
+  border-bottom: 1px solid #7a7d81;
+}
+
+
 
 
 /* content */
@@ -127,10 +151,6 @@ img{
 
 #top .content .title{
   padding: 20px 10px;
-}
-
-#top .content span{
-  color: #7a7d81;
 }
 
 #top .col{
