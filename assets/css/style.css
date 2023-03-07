@@ -8,6 +8,10 @@ li{
   list-style: none;
 }
 
+img{
+  width: 100%;
+}
+
 .container{
   width: 90%;
   height: 100%;
@@ -90,8 +94,14 @@ li{
 
 #top .col{
   width: calc(100% / 6);
-  height: 200px;   /*debug*/
+  text-align: center;
 }
+
+#top .content li{
+  padding: 10px 10px;
+}
+
+
 
 
 
