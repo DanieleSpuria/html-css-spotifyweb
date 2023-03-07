@@ -133,6 +133,7 @@ img{
   position: absolute;
   bottom:0;
   width: 100%;
+  background-color: #000000;
 }
 
 #top .left .install{
@@ -185,6 +186,7 @@ img{
 
 /* BOTTOM */
 #bottom{
+  position: absolute;
   width: 100vw;
   height: 100px;
   background-color: #282828;
@@ -270,6 +272,12 @@ img{
     display: none;
   }
   #top .left .playlist{
+    display: none;
+  }
+}
+
+@media screen and (max-height:350px){
+  #top .left .bottom{
     display: none;
   }
 }
