@@ -1,3 +1,4 @@
+/* GENERAL */
 *{
   padding: 0;
   margin: 0;
@@ -15,12 +16,19 @@ h2{
 h3{
   font-size: 16px;
   margin-top: 10px;
+  color: white;
 }
 
-span{
+h4{
+  font-size: 14px;
+  color: white;
+}
+
+a{
   font-size: 13px;
   font-weight: 800;
-  color: #7a7d81;
+  text-decoration: none;
+  color: #7a7d81
 }
 
 li{
@@ -31,12 +39,34 @@ img{
   width: 100%;
 }
 
+i{
+  cursor: pointer;
+}
+
 .container{
   width: 90%;
   height: 100%;
   margin: 0 auto;
 }
 
+.line{
+  position: relative;
+  height: 5px;
+  background-color: #5a5a5a;
+  border-radius: 50px;
+}
+
+.line-white{
+  position: absolute;
+  left: 0;
+  height: 5px;
+  background-color: #c1c1c1;
+}
+
+
+
+
+/* Utility */
 .d-flex{
   display: flex;
 }
@@ -70,20 +100,6 @@ img{
   height: 100%;
 }
 
-.line{
-  position: relative;
-  height: 5px;
-  background-color: #5a5a5a;
-  border-radius: 50px;
-}
-
-.line-white{
-  position: absolute;
-  left: 0;
-  height: 5px;
-  background-color: #c1c1c1;
-}
-
 
 
 
@@ -91,6 +107,8 @@ img{
 #top{
   position: relative;
 }
+
+
 
 /* upgrade */
 #top .upgrade{
@@ -101,6 +119,12 @@ img{
   height: 100px;
   background-color: #080b12e6;
 }
+
+#top .upgrade a{
+  color: white;
+}
+
+
 
 /* left */
 #top .left{
@@ -116,16 +140,19 @@ img{
 #top .left .add-btn span,
 #top .left .add-btn .btn{
   display: inline-block;
+  font-size: 15px;
+  color: #a3a3a3;
+  cursor: pointer;
 }
 
 #top .left .add-btn .btn{
   background-color: #a3a3a3;
-  cursor: pointer;
 }
 
 #top .left .add-btn .btn i{
   font-size: 18px;
   padding: 8px;
+  color: white;
   filter: invert(1);
 }
 
@@ -142,7 +169,6 @@ img{
 
 
 
-
 /* content */
 #top .content{
   width: calc(100vw - 250px);
@@ -154,9 +180,6 @@ img{
 
 #top .content li{
   padding: 25px 15px;
-  font-size: 13px;
-  font-weight: 800;
-  color: #7a7d81;
 }
 
 #top .content h2,
@@ -198,6 +221,10 @@ img{
 
 #bottom img{
   width: 50px;
+}
+
+#bottom .left i{
+  color: #7a7d81;
 }
 
 #bottom .center .top,
