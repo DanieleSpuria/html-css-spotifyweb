@@ -23,8 +23,20 @@ li{
   display: flex;
 }
 
+.justify-between{
+  justify-content: space-between;
+}
+
 .justify-center{
   justify-content: center;
+}
+
+.justify-end{
+ justify-content: end;
+}
+
+.align-center{
+  align-items: center;
 }
 
 .wrap{
@@ -88,6 +100,20 @@ li{
 #bottom{
   width: 100vw;
   height: 100px;
+}
+
+#bottom .left{
+  width: 25vw;
+}
+
+#bottom .center .top,
+#bottom .center .bottom{
+  height: 50%;
+  width: 50vw;
+}
+
+#bottom .right{
+  width: 25vw;
 }
 
 
