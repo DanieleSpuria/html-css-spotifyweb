@@ -192,6 +192,12 @@ i{
   padding: 20px 10px;
 }
 
+#top .content .title span{
+  font-size: 13px;
+  font-weight: 800;
+  color: #7a7d81
+}
+
 #top .col{
   width: calc(100% / 6);
   padding: 10px;
