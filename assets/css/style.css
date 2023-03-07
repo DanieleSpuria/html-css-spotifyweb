@@ -209,7 +209,7 @@ i{
 
 /* BOTTOM */
 #bottom{
-  position: absolute;
+  position: relative;
   width: 100vw;
   height: 100px;
   background-color: #282828;
@@ -238,7 +238,7 @@ i{
 }
 
 #bottom .center .line-white{
-  width: 100px;
+  width: 20%;
 }
 
 #bottom .time{
@@ -256,7 +256,7 @@ i{
 }
 
 #bottom .right .line-white{
-  width: 20px;
+  width: 20%;
 }
 
 
