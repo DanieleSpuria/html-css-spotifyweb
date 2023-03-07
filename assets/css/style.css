@@ -92,14 +92,19 @@ img{
   overflow: scroll;
 }
 
+#top .content li{
+  padding: 10px 10px;
+}
+
 #top .col{
   width: calc(100% / 6);
   text-align: center;
 }
 
-#top .content li{
-  padding: 10px 10px;
+#top .popular .card img{
+  border-radius: 50%;
 }
+
 
 
 
