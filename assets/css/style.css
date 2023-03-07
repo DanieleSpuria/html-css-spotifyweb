@@ -1,0 +1,11 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.debug{
+  background-color: rgba(0, 145, 255, 0.517);
+  border: 1px solid black;
+  height: 200px;
+}
