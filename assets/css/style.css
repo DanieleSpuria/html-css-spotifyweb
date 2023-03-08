@@ -97,11 +97,6 @@ i{
   flex-direction: column;
 }
 
-.relative{
-  position: relative;
-  height: 100%;
-}
-
 .px1{
   padding: 5px 15px;
 }
@@ -140,6 +135,10 @@ i{
   width: 230px;
   height: calc(100vh - 100px);
   background-color: #000000;
+}
+
+#top .top{
+  height: calc(100% - 81px);
   overflow: hidden;
 }
 
@@ -207,11 +206,8 @@ i{
 } */
 
 #top .left .bottom{
-  position: absolute;
-  bottom:0;
   width: 100%;
   padding: 10px 0;
-  background-color: #000000;
 }
 
 #top .left .install :nth-child(2),
@@ -280,7 +276,6 @@ i{
 
 /* BOTTOM */
 #bottom{
-  position: relative;
   width: 100vw;
   height: 100px;
   padding: 0 10px;
