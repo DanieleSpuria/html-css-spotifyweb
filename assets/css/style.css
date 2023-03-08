@@ -234,12 +234,12 @@ i{
   color: white;
 }
 
-/* #top .left .playlist ul{
+#top .left .playlist ul{
+  height: calc(100vh - 437px);
   overflow: scroll;
-} */
+}
 
 #top .left .bottom{
-  width: 100%;
   padding: 10px 0;
 }
 
@@ -339,7 +339,6 @@ i{
 
 /* BOTTOM */
 #bottom{
-  width: 100vw;
   height: 100px;
   padding: 0 10px;
   background-color: #282828;
