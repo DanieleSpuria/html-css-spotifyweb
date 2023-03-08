@@ -126,7 +126,7 @@ i{
 #top .upgrade{
   position: fixed;
   top: 0;
-  right: 0;
+  left: 230px;
   z-index: 99;
   width: calc(100vw - 230px);
   height: 100px;
@@ -366,10 +366,13 @@ i{
   color:white;
 }
 
+#bottom .center{
+  width: 50vw;
+}
+
 #bottom .center .top,
 #bottom .center .bottom{
-  width: 50vw;
-  padding: 10px 0;
+  padding-top: 15px;
 }
 
 #bottom .center .top{
@@ -388,7 +391,8 @@ i{
   width: 400px;
 }
 
-#bottom .center .line-white{
+#bottom .center .line-white,
+#bottom .right .line-white{
   width: 20%;
 }
 
@@ -400,10 +404,6 @@ i{
 
 #bottom .right .line{
   width: 120px;
-}
-
-#bottom .right .line-white{
-  width: 20%;
 }
 
 #bottom .line:hover .line-white{
@@ -437,6 +437,7 @@ i{
 @media screen and (max-width:576px){
   #top .upgrade{
     width: calc(100vw - 60px);
+    left: 60px;
   }
   #top .left{
     width: 60px;
