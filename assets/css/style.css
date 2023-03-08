@@ -44,8 +44,10 @@ i{
 }
 
 .container{
-  width: 90%;
+  width: 80%;
   height: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
   margin: 0 auto;
 }
 
@@ -141,8 +143,37 @@ i{
   background-color: #000000;
 }
 
+#top .left img{
+  width: 140px;
+}
+
 #top .left .logo-2{
   display: none;
+}
+
+#top .left nav:first-of-type li :first-child{
+  width: 37px;
+}
+
+#top .left nav:first-of-type a:nth-of-type(2){
+  line-height: 28px;
+}
+
+#top .left i{
+  font-size: 24px;
+}
+
+#top .left h4{
+  padding: 5px 0;
+}
+
+#top .left nav:first-of-type{
+  margin-top:25px;
+}
+
+#top .left .add-btn,
+#top .left li{
+  padding: 8px 0;
 }
 
 #top .left .add-btn span,
@@ -164,6 +195,13 @@ i{
   filter: invert(1);
 }
 
+#top .left .playlist span{
+  font-size: 15px;
+  font-weight: 800;
+  padding-left: 10px;
+  color: #7a7d81
+}
+
 /* #top .left .playlist{
   overflow: scroll;
 } */
@@ -175,8 +213,17 @@ i{
   background-color: #000000;
 }
 
+#top .left .bottom a{
+  padding-right: 10px;
+}
+
 #top .left .install{
   border-bottom: 1px solid #7a7d81;
+}
+
+
+#top .left .account{
+  padding-top: 10px;
 }
 
 
@@ -234,10 +281,6 @@ i{
   background-color: #282828;
 }
 
-#bottom .left{
-  width: 25vw;
-}
-
 #bottom img{
   width: 50px;
 }
@@ -277,10 +320,6 @@ i{
   font-size: 10px;
   padding: 0 20px;
   color: #ffffff;
-}
-
-#bottom .right{
-  width: 25vw;
 }
 
 #bottom .right .line{
