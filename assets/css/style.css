@@ -55,6 +55,7 @@ i{
   height: 5px;
   background-color: #5a5a5a;
   border-radius: 50px;
+  cursor: pointer;
 }
 
 .line-white{
@@ -63,6 +64,17 @@ i{
   height: 5px;
   background-color: #c1c1c1;
   border-radius: 50px;
+}
+
+.circle{
+  display: none;
+  position: absolute;
+  top: -5px;
+  left: 20%;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: white;
 }
 
 
@@ -121,11 +133,15 @@ i{
 }
 
 #top .upgrade a{
-  margin-right: 10px;
+  margin-right: 20px;
   padding: 10px 40px;
   color: white;
   border: 2px solid white;
   border-radius: 20px;
+}
+
+#top .upgrade .btn:hover{
+  transform: scale(1.1);
 }
 
 
@@ -162,6 +178,10 @@ i{
   font-size: 24px;
 }
 
+#top .left a span:hover{
+  color: white;
+}
+
 #top .left h4{
   padding: 5px 0;
 }
@@ -194,6 +214,14 @@ i{
   filter: invert(1);
 }
 
+#top .left .add-btn:hover .btn{
+  background-color: white;
+}
+
+#top .left .add-btn:hover span{
+  color: white;
+}
+
 #top .left .playlist span{
   font-size: 15px;
   font-weight: 800;
@@ -201,9 +229,13 @@ i{
   color: #7a7d81
 }
 
-#top .left .playlist ul{
-  overflow: scroll;
+#top .left .playlist a:hover{
+  color: white;
 }
+
+/* #top .left .playlist ul{
+  overflow: scroll;
+} */
 
 #top .left .bottom{
   width: 100%;
@@ -241,6 +273,10 @@ i{
 
 #top .content li{
   padding: 25px 15px;
+}
+
+#top .content li a:hover{
+  color:white;
 }
 
 #top .content h2,
@@ -321,6 +357,15 @@ i{
   color: #7a7d81;
 }
 
+#bottom .left a:nth-of-type(2):hover{
+  color: white;
+  text-decoration: underline;
+}
+
+#bottom .left div:nth-of-type(2) i:hover{
+  color:white;
+}
+
 #bottom .center .top,
 #bottom .center .bottom{
   width: 50vw;
@@ -333,6 +378,10 @@ i{
 
 #bottom .center .top :nth-child(3){
   font-size: 30px;
+}
+
+#bottom .center .top :nth-child(3):hover{
+  transform: scale(1.1);
 }
 
 #bottom .center .line{
@@ -355,6 +404,14 @@ i{
 
 #bottom .right .line-white{
   width: 20%;
+}
+
+#bottom .line:hover .line-white{
+  background-color: yellow;
+}
+
+#bottom .line:hover .circle{
+  display: block;
 }
 
 
