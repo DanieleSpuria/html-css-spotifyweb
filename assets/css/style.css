@@ -404,4 +404,7 @@ i{
   #top .left .bottom{
     display: none;
   }
+  #top .left .top{
+    height: 100%;
+  }
 }
