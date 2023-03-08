@@ -127,6 +127,7 @@ i{
   position: fixed;
   top: 0;
   right: 0;
+  z-index: 99;
   width: calc(100vw - 230px);
   height: 100px;
   background-color: #080b12e6;
