@@ -101,22 +101,25 @@ i{
   height: 100%;
 }
 
+.px1{
+  padding: 5px 15px;
+}
 
-
-
-/* TOP */
-#top{
-  position: relative;
+.px2{
+  padding: 0 25px;
 }
 
 
 
+
+/* TOP */
+
 /* upgrade */
 #top .upgrade{
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
-  width: calc(100vw - 250px);
+  width: calc(100vw - 230px);
   height: 100px;
   background-color: #080b12e6;
 }
@@ -133,7 +136,7 @@ i{
 
 /* left */
 #top .left{
-  width: 250px;
+  width: 230px;
   height: calc(100vh - 100px);
   background-color: #000000;
 }
@@ -161,6 +164,10 @@ i{
   filter: invert(1);
 }
 
+/* #top .left .playlist{
+  overflow: scroll;
+} */
+
 #top .left .bottom{
   position: absolute;
   bottom:0;
@@ -176,7 +183,7 @@ i{
 
 /* content */
 #top .content{
-  width: calc(100vw - 250px);
+  width: calc(100vw - 230px);
   height: calc(100vh - 100px);
   padding: 100px 10px 10px 10px;
   background-color: #141922;
@@ -223,6 +230,7 @@ i{
   position: relative;
   width: 100vw;
   height: 100px;
+  padding: 0 10px;
   background-color: #282828;
 }
 
@@ -234,18 +242,31 @@ i{
   width: 50px;
 }
 
+#bottom .text{
+  padding-left: 10px;
+  padding-right: 40px;
+}
+
 #bottom .left i{
   color: #7a7d81;
 }
 
 #bottom .center .top,
 #bottom .center .bottom{
-  height: 50%;
   width: 50vw;
+  padding: 10px 0;
+}
+
+#bottom .center .top{
+  font-size: 17px;
+}
+
+#bottom .center .top :nth-child(3){
+  font-size: 30px;
 }
 
 #bottom .center .line{
-  width: 500px;
+  width: 400px;
 }
 
 #bottom .center .line-white{
@@ -254,7 +275,7 @@ i{
 
 #bottom .time{
   font-size: 10px;
-  padding: 20px;
+  padding: 0 20px;
   color: #ffffff;
 }
 
