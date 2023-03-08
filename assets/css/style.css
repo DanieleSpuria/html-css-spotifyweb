@@ -201,9 +201,9 @@ i{
   color: #7a7d81
 }
 
-/* #top .left .playlist ul{
+#top .left .playlist ul{
   overflow: scroll;
-} */
+}
 
 #top .left .bottom{
   width: 100%;
@@ -265,6 +265,32 @@ i{
 
 #top .col .card{
   text-align: center;
+}
+
+#top .col .card a{
+  display: block;
+  width: 100%;
+}
+
+#top .col .card a:first-child{
+  position: relative;
+}
+
+#top .col .card i{
+  display: none;
+  position: absolute;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  font-size: 60px;
+  color: white;
+}
+
+#top .col .card img:hover{
+  opacity: .5;
+}
+
+#top .col .card img:hover + i{
+  display: block;
 }
 
 #top .popular .card img{
