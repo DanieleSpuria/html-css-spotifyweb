@@ -151,7 +151,7 @@ i{
   display: none;
 }
 
-#top .left nav:first-of-type li :first-child,{
+#top .left nav:first-of-type li :first-child{
   width: 37px;
 }
 
@@ -220,7 +220,12 @@ i{
 }
 
 #top .left .install{
+  padding-bottom: 5px;
   border-bottom: 1px solid #7a7d81;
+}
+
+#top .left .install i{
+  font-size: 13px;
 }
 
 #top .left .account{
@@ -365,17 +370,21 @@ i{
     display: none;
   }
   #top .left .logo-2{
-    display: block;
+    display: flex;
+    justify-content: center;
   }
   #top .left img{
-    width: 100%;
+    width: 70%;
+  }
+  #top .left nav:first-of-type{
+    margin-top: 10px;
   }
   #top .left nav li{
     display: flex;
     justify-content: center;
   }
   #top .left i{
-    font-size: 30px;
+    text-align: center;
   }
   #top .left .text{
     display: none;
@@ -391,6 +400,9 @@ i{
     justify-content: center;
   }
 
+  #top .left .install{
+    border-bottom: none;
+  }
 }
 
 @media screen and (max-height:350px){
