@@ -479,7 +479,7 @@ i{
     padding: 5px 10px 0 10px;
   }
   #top .top{
-    height: 781px;
+    height: calc(100vh - 181px);
   }
   #top .left .logo-1{
     display: none;
