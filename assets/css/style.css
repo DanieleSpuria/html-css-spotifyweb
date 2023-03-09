@@ -17,18 +17,26 @@ h3{
   font-size: 16px;
   margin-top: 10px;
   color: white;
+  cursor: pointer;
 }
 
 h4{
   font-size: 14px;
   color: white;
+  cursor: pointer;
+}
+
+span{
+  font-size: 13px;
+  font-weight: 800;
+  color: #7a7d81;
 }
 
 a{
   font-size: 13px;
   font-weight: 800;
   text-decoration: none;
-  color: #7a7d81
+  color: #7a7d81;
 }
 
 li{
@@ -37,6 +45,7 @@ li{
 
 img{
   width: 100%;
+  cursor: pointer;
 }
 
 i{
@@ -75,6 +84,10 @@ i{
   height: 15px;
   border-radius: 50%;
   background-color: white;
+}
+
+.active{
+  border-bottom: 1px solid yellow;
 }
 
 
@@ -154,6 +167,18 @@ i{
   background-color: #000000;
 }
 
+#top i{
+  color: #7a7d81;
+}
+
+#top span{
+  cursor: pointer;
+}
+
+#top .left span:hover{
+  color: white;
+}
+
 #top .top{
   height: calc(100% - 81px);
   overflow: hidden;
@@ -167,20 +192,16 @@ i{
   display: none;
 }
 
-#top .left nav:first-of-type li :first-child{
+#top .left nav:first-of-type i{
   width: 37px;
 }
 
-#top .left nav:first-of-type a:nth-of-type(2){
+#top .left nav:first-of-type span{
   line-height: 28px;
 }
 
 #top .left i{
   font-size: 24px;
-}
-
-#top .left a span:hover{
-  color: white;
 }
 
 #top .left h4{
@@ -200,7 +221,6 @@ i{
 #top .left .add-btn .btn{
   display: inline-block;
   font-size: 15px;
-  color: #a3a3a3;
   cursor: pointer;
 }
 
@@ -225,9 +245,7 @@ i{
 
 #top .left .playlist span{
   font-size: 15px;
-  font-weight: 800;
   padding-left: 10px;
-  color: #7a7d81
 }
 
 #top .left .playlist a:hover{
@@ -260,6 +278,7 @@ i{
 #top .left .account{
   padding-top: 10px;
 }
+
 
 
 
@@ -304,12 +323,11 @@ i{
   text-align: center;
 }
 
-#top .col .card a{
-  display: block;
-  width: 100%;
+#top .col .card span{
+  cursor: pointer;
 }
 
-#top .col .card a:first-child{
+#top .col .card .img{
   position: relative;
 }
 
@@ -348,6 +366,10 @@ i{
   width: 50px;
 }
 
+#bottom span{
+  cursor: pointer;
+}
+
 #bottom .text{
   padding-left: 10px;
   padding-right: 40px;
@@ -357,7 +379,7 @@ i{
   color: #7a7d81;
 }
 
-#bottom .left a:nth-of-type(2):hover{
+#bottom .left span:hover{
   color: white;
   text-decoration: underline;
 }
