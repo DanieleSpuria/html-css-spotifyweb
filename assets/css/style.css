@@ -381,8 +381,11 @@ i{
 }
 
 #bottom .text{
-  padding-left: 10px;
-  padding-right: 40px;
+  padding: 10px;
+}
+
+#bottom .left{
+  width: 30%;
 }
 
 #bottom .left i{
@@ -399,7 +402,7 @@ i{
 }
 
 #bottom .center{
-  width: 50vw;
+  width: 40%;
 }
 
 #bottom .center .top,
@@ -420,7 +423,7 @@ i{
 }
 
 #bottom .center .line{
-  width: 400px;
+  width: 60%;
 }
 
 #bottom .center .line-white,
@@ -434,8 +437,12 @@ i{
   color: #ffffff;
 }
 
+#bottom .right{
+  width: 30%;
+}
+
 #bottom .right .line{
-  width: 120px;
+  width: 30%;
 }
 
 #bottom .line:hover .line-white{
