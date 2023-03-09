@@ -471,11 +471,15 @@ i{
     width: calc(100vw - 60px);
     left: 60px;
   }
-  #top .left{
-    width: 60px;
-  }
   #top .content{
     width: calc(100vw - 60px);
+  }
+  #top .left{
+    width: 60px;
+    padding: 5px 10px 0 10px;
+  }
+  #top .top{
+    height: 781px;
   }
   #top .left .logo-1{
     display: none;
@@ -510,9 +514,11 @@ i{
   #top .left .account{
     justify-content: center;
   }
-
   #top .left .install{
     border-bottom: none;
+  }
+  .left .top nav:first-of-type .active::before{
+    display: none;
   }
 }
 
