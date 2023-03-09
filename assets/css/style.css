@@ -33,6 +33,7 @@ span{
 }
 
 a{
+  display: block;
   font-size: 13px;
   font-weight: 800;
   text-decoration: none;
@@ -85,10 +86,13 @@ i{
   border-radius: 50%;
   background-color: white;
 }
-
-.active{
-  border-bottom: 1px solid yellow;
-}
+/* 
+.menu-top ul::after{
+  display: block;
+  height: 100px;
+  width: 200px;
+  background-color: yellow;
+} */
 
 
 
@@ -334,8 +338,6 @@ i{
 #top .col .card i{
   display: none;
   position: absolute;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
   font-size: 60px;
   color: white;
 }
@@ -493,7 +495,7 @@ i{
   #top .left .playlist{
     display: none;
   }
-  #top .left .install :nth-child(2), #top .left .account :nth-child(2){
+  #top .left .install span, #top .left .account h4{
     display: none;
   }
   #top .left .install,
