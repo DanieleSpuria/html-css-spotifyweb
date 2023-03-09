@@ -34,6 +34,7 @@ span{
 
 a{
   display: block;
+  position: relative;
   font-size: 13px;
   font-weight: 800;
   text-decoration: none;
@@ -51,13 +52,6 @@ img{
 
 i{
   cursor: pointer;
-}
-
-.container{
-  width: 80%;
-  height: 100%;
-  padding-top: 20px;
-  margin: 0 auto;
 }
 
 .line{
@@ -86,13 +80,26 @@ i{
   border-radius: 50%;
   background-color: white;
 }
-/* 
-.menu-top ul::after{
+
+.menu-top .active::after {
+  content: '';
   display: block;
-  height: 100px;
-  width: 200px;
-  background-color: yellow;
-} */
+  position: absolute;
+  left: calc(50% - 15px);
+  height: 3px;
+  width: 30px;
+  background-color: #adff2f;
+}
+
+.left .top nav:first-of-type .active::before{
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  height: 30px;
+  width: 3px;
+  background-color: #adff2f;
+}
 
 
 
@@ -168,6 +175,7 @@ i{
 #top .left{
   width: 230px;
   height: calc(100vh - 100px);
+  padding: 20px 22px 0 22px;
   background-color: #000000;
 }
 
